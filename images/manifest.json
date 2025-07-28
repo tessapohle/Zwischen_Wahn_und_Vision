@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in tessapohle/Zwischen_Wahn_und_Vision project"
+        ]
+    },
+    "items": []
+}
