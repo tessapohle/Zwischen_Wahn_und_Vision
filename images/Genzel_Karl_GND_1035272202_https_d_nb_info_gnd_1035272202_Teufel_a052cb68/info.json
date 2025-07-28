@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 34,
+    "height" : 50
+  }, {
+    "width" : 68,
+    "height" : 100
+  }, {
+    "width" : 135,
+    "height" : 200
+  }, {
+    "width" : 269,
+    "height" : 400
+  }, {
+    "width" : 537,
+    "height" : 800
+  }, {
+    "width" : 1073,
+    "height" : 1600
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1073,
+  "@id" : "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Genzel_Karl_GND_1035272202_https_d_nb_info_gnd_1035272202_Teufel_a052cb68",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1600
+}
