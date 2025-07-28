@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 33,
+    "height" : 44
+  }, {
+    "width" : 65,
+    "height" : 88
+  }, {
+    "width" : 130,
+    "height" : 175
+  }, {
+    "width" : 259,
+    "height" : 349
+  }, {
+    "width" : 518,
+    "height" : 698
+  }, {
+    "width" : 1035,
+    "height" : 1396
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1035,
+  "@id" : "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Der_Schwachsinnige_dcbc21d5",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1396
+}
