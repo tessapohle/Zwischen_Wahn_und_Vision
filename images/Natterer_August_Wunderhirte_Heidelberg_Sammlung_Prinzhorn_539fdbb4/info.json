@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 36,
+    "height" : 45
+  }, {
+    "width" : 72,
+    "height" : 90
+  }, {
+    "width" : 144,
+    "height" : 180
+  }, {
+    "width" : 288,
+    "height" : 360
+  }, {
+    "width" : 576,
+    "height" : 720
+  }, {
+    "width" : 1151,
+    "height" : 1440
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1151,
+  "@id" : "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1440
+}
