@@ -1,0 +1,59 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://45125fdb-bc1b-417c-be0e-6e71c54c5886",
+	"@type": "sc:Manifest",
+	"label": "Sammlung Prinzhorn",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://7901be36-b3a0-45c8-b240-3e93ca89401e",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://ebdf9498-3bf7-421b-890c-b4c78ca13cbe",
+					"@type": "sc:Canvas",
+					"label": "Wunderhirthe II",
+					"height": "1440",
+					"width": "1151",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2ebed331-76ef-4c44-bb30-dc8f93d01cf4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4",
+									"profile": "http://iiif.io/api/image/2/level0.json"
+								},
+								"height": 1440,
+								"width": 1151
+							},
+							"on": "http://ebdf9498-3bf7-421b-890c-b4c78ca13cbe"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
