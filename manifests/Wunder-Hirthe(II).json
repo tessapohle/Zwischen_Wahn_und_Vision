@@ -45,13 +45,20 @@
       }
     }
   ],
-  "rights": "https://creativecommons.org/licenses/by/3.0/",
+  "rights": "http://creativecommons.org/licenses/by/3.0/",
   "viewingDirection": "left-to-right",
-  "logo": [
+  "provider": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
-      "type": "Image",
-      "format": "image/jpeg"
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "type": "Agent",
+      "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
+      "logo": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
     }
   ],
   "items": [
@@ -85,4 +92,3 @@
     }
   ]
 }
-
