@@ -1,0 +1,96 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Ernst-Oedipe.json",
+  "type": "Manifest",
+  "label": {
+    "de": ["Max Ernst – Œdipe (1931)"]
+  },
+  "metadata": [
+    {
+      "label": { "de": ["Titel"] },
+      "value": { "de": ["Œdipe (Ödipus)"] }
+    },
+    {
+      "label": { "de": ["Künstler"] },
+      "value": { "de": ["Max Ernst (1891–1976)"] }
+    },
+    {
+      "label": { "de": ["Jahr"] },
+      "value": { "de": ["1931"] }
+    },
+    {
+      "label": { "de": ["Technik"] },
+      "value": { "de": ["Druckgrafik"] }
+    },
+    {
+      "label": { "de": ["Format"] },
+      "value": { "de": ["Hochformat"] }
+    },
+    {
+      "label": { "de": ["Standort"] },
+      "value": { "de": ["Sammlung Marzona, Bielefeld"] }
+    },
+    {
+      "label": { "de": ["Verwendung"] },
+      "value": { "de": ["Umschlag der Max-Ernst-Sondernummer der Cahiers d'Art, Paris 1937"] }
+    },
+    {
+      "label": { "de": ["Beschreibung"] },
+      "value": {
+        "de": [
+          "Das Werk zeigt eine schwebende menschliche Figur, die diagonal durch das Bild verläuft und einen Löwenkopf in den Händen hält. Ein kleiner Frauenkopf sitzt auf einem männlich gelesenen Torso, ergänzt durch Flügel und verzerrte Proportionen. Der Hintergrund ist monochrom blau, der Name „Max Ernst“ erscheint in der oberen rechten Ecke. Symbolisch verweist der Löwenkopf auf die Chimäre und den Ödipus-Mythos. Das Werk thematisiert Schicksal, Identität, verbotene Liebe und psychoanalytische Konzepte im surrealistischen Stil."
+        ]
+      }
+    }
+  ],
+  "rights": "http://creativecommons.org/licenses/by/3.0/",
+  "viewingDirection": "left-to-right",
+  "provider": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "type": "Agent",
+      "label": { "de": ["Projekt: Zwischen Wahn und Vision"] },
+      "logo": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Oedipus_Max_Ernst_Bielefeld_0d1bd67d/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 1440,
+          "width": 1099
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1",
+      "type": "Canvas",
+      "label": { "de": ["Œdipe (1931)"] },
+      "height": 1440,
+      "width": 1099,
+      "items": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/ernst-oedipe-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Oedipus_Max_Ernst_Bielefeld_0d1bd67d/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1440,
+                "width": 1099
+              },
+              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
