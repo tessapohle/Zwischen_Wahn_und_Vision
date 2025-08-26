@@ -1,92 +1,88 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Wunder-Hirthe(II).json",
-  "@type": "sc:Manifest",
-  "label": "Sammlung Prinzhorn Heidelberg",
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Wunder-Hirthe(II).json",
+  "type": "Manifest",
+  "label": {
+    "de": ["Sammlung Prinzhorn Heidelberg"]
+  },
   "metadata": [
     {
-      "label": "Titel",
-      "value": "Wunder-Hirthe(II)"
+      "label": { "de": ["Titel"] },
+      "value": { "de": ["Wunder-Hirthe(II)"] }
     },
     {
-      "label": "Künstler",
-      "value": "August Natterer"
+      "label": { "de": ["Künstler"] },
+      "value": { "de": ["August Natterer"] }
     },
     {
-      "label": "Jahr",
-      "value": "ca. 1911–1917 (basierend auf der Bleistiftzeichnung „Wunder-Hirthe(I)“ und der Primärvision von 1907)"
+      "label": { "de": ["Jahr"] },
+      "value": { "de": ["ca. 1911–1917 (basierend auf der Bleistiftzeichnung „Wunder-Hirthe(I)“ und der Primärvision von 1907)"] }
     },
     {
-      "label": "Technik",
-      "value": "Bleistift- und Aquarellzeichnung auf Aquarellkarton"
+      "label": { "de": ["Technik"] },
+      "value": { "de": ["Bleistift- und Aquarellzeichnung auf Aquarellkarton"] }
     },
     {
-      "label": "Maße",
-      "value": "24,5 cm × 19,6 cm (hochformatig)"
+      "label": { "de": ["Maße"] },
+      "value": { "de": ["24,5 cm × 19,6 cm (hochformatig)"] }
     },
     {
-      "label": "Standort",
-      "value": "Sammlung Prinzhorn, Heidelberg"
+      "label": { "de": ["Standort"] },
+      "value": { "de": ["Sammlung Prinzhorn, Heidelberg"] }
     },
     {
-      "label": "Stilistische Zuordnung",
-      "value": "Outsider Art/ Art Brut"
+      "label": { "de": ["Stilistische Zuordnung"] },
+      "value": { "de": ["Outsider Art / Art Brut"] }
     },
     {
-      "label": "Beschreibung (inhaltlich/konzeptuell)",
-      "value": "Das Werk ist eine äußerst komplexe und detailreiche Bleistift- und Aquarellzeichnung, die Natterers von Wahnvorstellungen und Ängsten geprägte Innenwelt widerspiegelt. Im Mittelpunkt steht eine humanoid wirkende, offene Dreieckskomposition aus verschlungenen Figuren und Körperteilen vor blauem Hintergrund. Es zeigt eine menschenähnliche Figur mit Ramskopf, die einen Hirtenstab hält, sowie weitere Tier- und Körperteile, die ineinander übergehen. Natterer beschrieb seine Vision als Ausgangspunkt für das Werk, darunter eine \"Brillenschlange in der Luft\", Füße aus einer Rübe, das Gesicht seines Schwiegervaters als \"Weltwunder\" und seine Selbstidentifikation als \"der gute Hirt – Gott!\". Das Werk zeichnet sich durch seine Asymmetrie, dynamische Anordnung und eine nüchterne, sachliche Darstellungsweise aus, die an technische Zeichnungen erinnert. Es enthält vielfältige religiöse und mythologische Bezüge und thematisiert komplexe menschliche Beziehungen. Der assoziative und intuitive Schaffensprozess Natterers erzeugt eine surreal anmutende Bildwelt, die tief in seiner Psyche verwurzelt ist. Die montageästhetische Technik und die willkürliche Kombination heterogener Körperteile in diesem Werk beeinflussten maßgeblich surrealistische Künstler wie Max Ernst."
+      "label": { "de": ["Beschreibung (inhaltlich/konzeptuell)"] },
+      "value": {
+        "de": [
+          "Das Werk ist eine äußerst komplexe und detailreiche Bleistift- und Aquarellzeichnung, die Natterers von Wahnvorstellungen und Ängsten geprägte Innenwelt widerspiegelt. Im Mittelpunkt steht eine humanoid wirkende, offene Dreieckskomposition aus verschlungenen Figuren und Körperteilen vor blauem Hintergrund. Es zeigt eine menschenähnliche Figur mit Ramskopf, die einen Hirtenstab hält, sowie weitere Tier- und Körperteile, die ineinander übergehen. Natterer beschrieb seine Vision als Ausgangspunkt für das Werk, darunter eine 'Brillenschlange in der Luft', Füße aus einer Rübe, das Gesicht seines Schwiegervaters als 'Weltwunder' und seine Selbstidentifikation als 'der gute Hirt – Gott!'. Das Werk zeichnet sich durch seine Asymmetrie, dynamische Anordnung und eine nüchterne, sachliche Darstellungsweise aus, die an technische Zeichnungen erinnert. Es enthält vielfältige religiöse und mythologische Bezüge und thematisiert komplexe menschliche Beziehungen. Der assoziative und intuitive Schaffensprozess Natterers erzeugt eine surreal anmutende Bildwelt, die tief in seiner Psyche verwurzelt ist. Die montageästhetische Technik und die willkürliche Kombination heterogener Körperteile in diesem Werk beeinflussten maßgeblich surrealistische Künstler wie Max Ernst."
+        ]
+      }
     }
   ],
-  "description": [
+  "rights": "https://creativecommons.org/licenses/by/3.0/",
+  "viewingDirection": "left-to-right",
+  "logo": [
     {
-      "@value": "August Natterers „Wunder-Hirthe(II)“ ist eine hochformatige Bleistift- und Aquarellzeichnung, die zwischen 1911 und 1917 entstand und heute zur Sammlung Prinzhorn in Heidelberg gehört. Das Werk basiert auf einer komplexen Primärvision des Künstlers von 1907 und spiegelt seine von Wahnvorstellungen und Ängsten geprägte Innenwelt wider. Natterer beschrieb darin Elemente wie eine \"Brillenschlange in der Luft\", Füße aus einer Rübe, das Gesicht seines Schwiegervaters als \"Weltwunder\" und identifizierte sich selbst als \"der gute Hirt – Gott!\".\nDie äußerst komplexe und detailreiche Komposition zeigt ineinander verwobene humanoide und tierische Figuren und Körperteile vor einem blauen Hintergrund. Stilistisch wird das Werk der Outsider Art oder Art Brut zugeordnet, die sich durch eine „rohe, ungefilterte Ausdrucksweise“ auszeichnet. Natterers Darstellungsweise ist nüchtern, klar und sachlich, ähnlich einer technischen Zeichnung. Das Kunstwerk zeichnet sich durch seine Asymmetrie, dynamische Anordnung und das Ineinandergreifen von Elementen aus. Es thematisiert unter anderem religiöse und mythologische Bezüge, komplexe menschliche Beziehungen und die Erkundung des Unbewussten. Die montageästhetische Technik und die willkürliche Kombination heterogener Körperteile in diesem Werk beeinflussten maßgeblich surrealistische Künstler wie Max Ernst.",
-      "@language": "de"
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
     }
   ],
-  "license": "https://creativecommons.org/licenses/by/3.0/",
-  "sequences": [
+  "items": [
     {
-      "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/sequences/wunderhirthe-sequence",
-      "@type": "sc:Sequence",
-      "label": [
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1",
+      "type": "Canvas",
+      "label": { "de": ["Wunder-Hirthe(II)"] },
+      "height": 1960,
+      "width": 2450,
+      "items": [
         {
-          "@value": "Normal Sequence",
-          "@language": "en"
-        }
-      ],
-      "canvases": [
-        {
-          "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvases/wunderhirthe-canvas",
-          "@type": "sc:Canvas",
-          "label": "Wunder-Hirthe(II)",
-          "height": 1440,
-          "width": 1151,
-          "images": [
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotations/wunderhirthe-anno1",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
+              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg",
+                "type": "Image",
                 "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4",
-                  "profile": "http://iiif.io/api/image/2/level0.json"
-                },
-                "height": 1440,
-                "width": 1151
+                "height": 1960,
+                "width": 2450
               },
-              "on": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvases/wunderhirthe-canvas"
+              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1"
             }
           ]
         }
       ]
     }
-  ],
-  "structures": [],
-  "viewingDirection": "left-to-right",
-  "logo": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Natterer_August_Wunderhirte_Heidelberg_Sammlung_Prinzhorn_539fdbb4/full/full/0/default.jpg"
+  ]
 }
+
