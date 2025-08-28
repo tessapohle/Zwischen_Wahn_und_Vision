@@ -1,0 +1,94 @@
+
+ {
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Ernst-Der-Schwachsinnige.json",
+  "type": "Manifest",
+  "label": {
+    "de": ["Max Ernst – Der Schwachsinnige"]
+  },
+  "metadata": [
+    {
+      "label": { "de": ["Titel"] },
+      "value": { "de": ["Der Schwachsinnige"] }
+    },
+    {
+      "label": { "de": ["Künstler"] },
+      "value": { "de": ["Max Ernst (1891–1976)"] }
+    },
+    {
+      "label": { "de": ["Jahr"] },
+      "value": { "de": ["1961"] }
+    },
+    {
+      "label": { "de": ["Technik"] },
+      "value": { "de": ["Bronze, gegossen"] }
+    },
+    {
+      "label": { "de": ["Maße"] },
+      "value": { "de": [""] }
+    },
+    {
+      "label": { "de": ["Standort"] },
+      "value": { "de": ["Musee National d'Art Moderne, Centre Pompidou, Paris, France"] }
+    },
+    {
+      "label": { "de": ["Stilistische Zuordnung"] },
+      "value": { "de": ["Surrealismus"] }
+    },
+    {
+      "label": { "de": ["Beschreibung (inhaltlich/konzeptuell)"] },
+      "value": {
+        "de": [
+        "Die Bronzeplastik zeigt eine abstrahierte Büste, deren Kopf in geometrische und organische Elemente aufgespalten ist. Über der Kopfpartie wachsen vogelähnliche und maskenhafte Formen hervor, die parasitäre Gedanken oder innere Stimmen symbolisieren könnten. Der Titel „Der Schwachsinnige“ verweist auf gesellschaftliche Zuschreibungen geistiger Abweichung, die Ernst hier grotesk verfremdet. Das Werk verbindet Ernsts wiederkehrende Vogelmotive mit einer kritischen Reflexion über Wahnsinn und Stigmatisierung. In der dunkel patinierten Bronze verschränken sich Strenge und spielerische Dynamik, wodurch eine ambivalente Wirkung zwischen Bedrohung und Humor entsteht."        ]
+      }
+    }
+  ],
+  "rights": "http://creativecommons.org/licenses/by/3.0/",
+  "viewingDirection": "left-to-right",
+  "provider": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "type": "Agent",
+      "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
+      "logo": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Der_Schwachsinnige_dcbc21d5/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1",
+      "type": "Canvas",
+      "label": { "de": ["Der Schwachsinnige"] },
+      "height": 1035,
+      "width": 1396,
+      "items": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/1",
+              "type": "Annotation",
+              "motivation": "Skulptur",
+              "body": {
+                "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Der_Schwachsinnige_dcbc21d5/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1035,
+                "width": 1396
+              },
+              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

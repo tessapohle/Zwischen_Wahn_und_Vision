@@ -1,0 +1,94 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Genzel-Teufel.json",
+  "type": "Manifest",
+  "label": {
+    "de": ["Sammlung Prinzhorn Heidelberg"]
+  },
+  "metadata": [
+    {
+      "label": { "de": ["Titel"] },
+      "value": { "de": ["Der Teufel mit Pferdefuß und Horn"] }
+    },
+    {
+      "label": { "de": ["Künstler"] },
+      "value": { "de": ["Karl Genzel"] }
+    },
+    {
+      "label": { "de": ["Jahr"] },
+      "value": { "de": ["vor 1929"] }
+    },
+    {
+      "label": { "de": ["Technik"] },
+      "value": { "de": ["Holz, geschnitzt"] }
+    },
+    {
+      "label": { "de": ["Maße"] },
+      "value": { "de": ["Höhe 60 cm"] }
+    },
+    {
+      "label": { "de": ["Standort"] },
+      "value": { "de": ["Sammlung Prinzhorn, Heidelberg (Inv.-Nr. 131)"] }
+    },
+    {
+      "label": { "de": ["Stilistische Zuordnung"] },
+      "value": { "de": ["Outsider Art / Art Brut"] }
+    },
+    {
+      "label": { "de": ["Beschreibung (inhaltlich/konzeptuell)"] },
+      "value": {
+        "de": [
+          "Die Holzskulptur zeigt einen stark abstrahierten, bedrohlich wirkenden Kopf mit übergroßen, asymmetrischen Hörnern und einem langgezogenen Gesicht. Runde Augen, eine scharfe Nase und ein breiter Mund mit betonten Lippen unterstreichen den dämonischen Ausdruck. Auf dem Halsansatz ist ein Kreuz-/Sternsymbol eingeschnitzt, das die religiöse Aufladung verstärkt. Das Werk verkörpert die Vorstellung des Teufels als personifiziertes Böses und spiegelt Ängste und innere Bedrohungen wider. Die rohe Bearbeitung des Materials und die monumentale Vertikalität der Skulptur verleihen ihr eine archaische Wirkung. Als Werk eines psychiatrischen Patienten ist es Ausdruck innerer Bilder, die unmittelbar und ungeschönt in eine plastische Form überführt wurden. Damit steht die Skulptur exemplarisch für die Art Brut der Sammlung Prinzhorn."
+        ]
+      }
+    }
+  ],
+  "rights": "http://creativecommons.org/licenses/by/3.0/",
+  "viewingDirection": "left-to-right",
+  "provider": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "type": "Agent",
+      "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
+      "logo": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Genzel_Karl_GND_1035272202_https_d_nb_info_gnd_1035272202_Teufel_a052cb68/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1",
+      "type": "Canvas",
+      "label": { "de": ["Teufel"] },
+      "height": 1073,
+      "width": 1600,
+      "items": [
+        {
+          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/1",
+              "type": "Annotation",
+              "motivation": "Skulptur",
+              "body": {
+                "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Genzel_Karl_GND_1035272202_https_d_nb_info_gnd_1035272202_Teufel_a052cb68/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1073,
+                "width": 1600
+              },
+              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
