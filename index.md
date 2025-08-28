@@ -45,4 +45,21 @@
     * [View in Annona](plugins/annona/?iiif-content={{ file.path | absolute_url }})
 {% endfor %}
 
-git clone https://github.com/CogappLabs/StoriiiesViewer.git
+<html>
+  <head>
+    <title>Zwischen Wahn und Vision</title>
+    <link rel="stylesheet" href="path/to/storiiies.css">
+  </head>
+  <body>
+    <div id="storiiies-container"></div>
+    <script src="path/to/storiiies.js"></script>
+    <script>
+      const storiiies = new StoriiiesViewer({
+        container: '#storiiies-container',
+        storyId: 'dein-story-id',
+      });
+      storiiies.load();
+    </script>
+  </body>
+</html>
+
